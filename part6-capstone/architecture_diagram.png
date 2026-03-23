@@ -1,1 +1,26 @@
-
+[Data Sources]
+   |
+   v
+[Ingestion Layer]
+   |
+   v
+-----------------------------------
+|        Storage Layer            |
+|--------------------------------|
+| SQL DB (patients)              |
+| Data Warehouse (reports)       |
+| Vector DB (AI search)          |
+| Streaming DB (ICU data)        |
+-----------------------------------
+   |
+   v
+[Processing Layer]
+   |
+   v
+-----------------------------------
+| Outputs                         |
+|--------------------------------|
+| ML Model (prediction)           |
+| Doctor Query System             |
+| BI Dashboard                    |
+-----------------------------------
